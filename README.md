@@ -1,9 +1,13 @@
-##### Topics
+# Topics
 
-Code
-N/W concepts
-System Design
+### Code
+```
+```
 
+### Core Concepts (os/networking/algo/ds)
+```
+```
 
-
-
+### System Design
+```
+```
