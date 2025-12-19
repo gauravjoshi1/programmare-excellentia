@@ -1,5 +1,6 @@
 // first approach is to form a graph, and for each node check the number of edges
 // emerging out from it is equal to number of nodes.
+// time : O(n), space : O(n)
 
 class Solution {
 public:
@@ -20,6 +21,7 @@ public:
 
 // as center will always exist, we can just check
 // the first to edges and based on that return
+// time : O(1), space : O(1)
 class Solution {
 public:
     int findCenter(vector<vector<int>>& edges) {
