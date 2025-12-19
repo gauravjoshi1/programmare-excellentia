@@ -1,3 +1,7 @@
+// form a graph, do a dfs and it reaches the destination node
+// then path exists
+// time : O(n), space : O(n)
+
 class Solution {
 public:
     std::unordered_map<int, vector<int>> umap;
