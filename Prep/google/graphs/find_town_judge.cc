@@ -1,3 +1,7 @@
+// form a graph, check for each node if it has no outgoing edges
+// second check if for each node there exists a link
+// time : O(n), space : O(n)
+
 class Solution {
 public:
     int findJudge(int n, vector<vector<int>>& trust) {
