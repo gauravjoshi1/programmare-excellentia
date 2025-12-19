@@ -1,3 +1,6 @@
+// first approach is to form a graph, and for each node check the number of edges
+// emerging out from it is equal to number of nodes.
+
 class Solution {
 public:
     int findCenter(vector<vector<int>>& edges) {
@@ -15,6 +18,8 @@ public:
 };
 
 
+// as center will always exist, we can just check
+// the first to edges and based on that return
 class Solution {
 public:
     int findCenter(vector<vector<int>>& edges) {
