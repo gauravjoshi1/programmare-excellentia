@@ -17,6 +17,8 @@
 // subtree find the inorder successor
 // swap the value of the leaf, and current
 // node and detach the leaf
+//
+// time : O(n), space O(1)
 
 
 /**
